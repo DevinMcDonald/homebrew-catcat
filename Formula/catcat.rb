@@ -1,12 +1,13 @@
 class Catcat < Formula
   desc "Terminal tower defense with cats"
-  homepage "https://github.com/YOUR_GITHUB_USERNAME/catcat"
-  url "https://github.com/YOUR_GITHUB_USERNAME/catcat/releases/download/v0.0.0/catcat-darwin-arm64.tar.gz"
-  sha256 "REPLACE_WITH_SHA256"
+  homepage "https://github.com/DevinMcDonald/catcat"
+  url "https://github.com/DevinMcDonald/catcat/releases/download/v1.0.0/catcat_bundle.zip"
+  sha256 "695d3245deee0b2796cb9641ab778261b189c7ba0039db07ccd83e5593323768"
   license "MIT" # Update if your project uses a different license
 
   def install
-    libexec.install Dir["*"]
+    bundle_root = (buildpath/"catcat_bundle").directory? ? buildpath/"catcat_bundle" : buildpath
+    libexec.install bundle_root.children
     (bin/"catcat").write <<~EOS
       #!/bin/bash
       cd "#{libexec}"
