@@ -2,7 +2,7 @@ class Catcat < Formula
   desc "Terminal tower defense with cats"
   homepage "https://github.com/DevinMcDonald/catcat"
   url "https://github.com/DevinMcDonald/catcat/releases/download/v1.3.2/catcat_bundle.zip"
-  sha256 "83c417b6df853309457f09bbec188d8e819187c5a6ff34f81965b1ce2840f723"
+  sha256 "2e31d629a8099d677c58707f9bcc1681c21a177123930936b7fa4f0e740a7550"
   license "MIT" # Update if your project uses a different license
 
   def install
