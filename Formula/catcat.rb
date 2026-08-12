@@ -1,28 +1,28 @@
 class Catcat < Formula
   desc "Terminal tower defense with cats"
   homepage "https://github.com/DevinMcDonald/catcat"
-  version "4.6.1"
+  version "4.6.4"
   license "MIT" # Update if your project uses a different license
 
   on_macos do
     on_arm do
-      url "https://github.com/DevinMcDonald/catcat/releases/download/v4.6.1/catcat-macos-arm64.zip"
-      sha256 "db1fb36056088658e94c4995bfd7ddf2745dc2d47a18738922b9caef3c74bd02"
+      url "https://github.com/DevinMcDonald/catcat/releases/download/v4.6.4/catcat-macos-arm64.zip"
+      sha256 "0c7c8d8d82752a0b5752e20d1a65d75f1f3e9551db2613e6fe5135fcd62797d7"
     end
     on_intel do
-      url "https://github.com/DevinMcDonald/catcat/releases/download/v4.6.1/catcat-macos-x86_64.zip"
-      sha256 "bc7d0904111a334082dfdbab42812812c2df1a47c3d5b55dff41eb61404b3145"
+      url "https://github.com/DevinMcDonald/catcat/releases/download/v4.6.4/catcat-macos-x86_64.zip"
+      sha256 "d72fdda1bdedbc8a816ea86c68085723d7917700d94521188f49221e352e9b7b"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/DevinMcDonald/catcat/releases/download/v4.6.1/catcat-linux-arm64.zip"
-      sha256 "448bc4609bc32514c56ca5299be8e2fd1150c4f9987750c17462f06a6bac6454"
+      url "https://github.com/DevinMcDonald/catcat/releases/download/v4.6.4/catcat-linux-arm64.zip"
+      sha256 "2df20b3f0dfd507999325714e81c0acd952102d4e11ca40e33b183d64e66c577"
     end
     on_intel do
-      url "https://github.com/DevinMcDonald/catcat/releases/download/v4.6.1/catcat-linux-x86_64.zip"
-      sha256 "a396e20d8fbc90b72600ab6d7f9b3e8b8cca4e24335ba37304ca877379dd844e"
+      url "https://github.com/DevinMcDonald/catcat/releases/download/v4.6.4/catcat-linux-x86_64.zip"
+      sha256 "e407c9c19f48ba2be5be0b05c6bd239e3e89e5e1bb6f298e312d17507bd18ea3"
     end
   end
 
